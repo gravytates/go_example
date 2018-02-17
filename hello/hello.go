@@ -2,9 +2,12 @@ package main
 
 import (
   "fmt"
-  "github.com/gravytates/stringutil"
+  "github.com/gravytates/go_example/stringutil"
 )
 
 func main() {
-  fmt.Printf(stringutil.Reverse("!oG ,olleH"))
+  input := "!oG ,olleH\n"
+  reverseInput := stringutil.Reverse(input)
+  fmt.Printf(input)
+  fmt.Printf(reverseInput)
 }
